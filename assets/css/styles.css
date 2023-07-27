@@ -232,11 +232,20 @@ img {
 }
 
 .home__img {
-  position: relative;
+  position: absolute;
   right: 0;
   bottom: 0;
   top: 140px;
   width: 260px;
+}
+@media (max-width: 360px) {
+  .home__img {
+    position: relative;
+    right: auto;
+    top: auto;
+    width: 100%;
+    bottom: auto;
+  }
 }
 
 .home__blob {
