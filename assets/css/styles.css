@@ -238,7 +238,7 @@ img {
   top: 140px;
   width: 260px;
 }
-@media (max-width: 360px) {
+@media (max-width: 420px) {
   .home__img {
     position: relative;
     right: auto;
